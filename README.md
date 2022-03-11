@@ -1,4 +1,4 @@
-# To-do list with Firebase Storage
+# To-do list built with Firebase Storage
 
 Write any task you need to complete
 

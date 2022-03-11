@@ -1,8 +1,6 @@
 # To-do list built with Firebase Storage
 
-Write any task you need to complete
-
-You can mark it as complete or delete it from the task list
+Write any task you need to complete, you can mark it as complete or delete it from the task list.
 
 Built with ReactJs
 

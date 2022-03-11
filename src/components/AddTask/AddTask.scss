@@ -1,0 +1,35 @@
+.new-task__form{
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+input{
+    height: 50px;
+    width: 100%;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+.btn{
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    top: 0;
+    right: 16px;
+    padding: 0;
+}
+
+#root > div > div.main-container.row > div:nth-child(3) > form > button{
+    padding: 0;
+}
+
+.send-icon{
+    width: 30px;
+    height: 100%;
+    fill: #dadada;
+}

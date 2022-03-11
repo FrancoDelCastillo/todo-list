@@ -1,0 +1,64 @@
+
+.main-title{
+
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: #3c5663;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 400px);
+    color: #A6D0E4;
+    font-size: 2rem;
+    
+}
+
+.main-container{
+    padding-top: 60px;
+    background: #A6D0E4;
+}
+
+.main-container__title{
+    font-family: 'Amatic SC', cursive;
+    color: #3c5663;
+    background-color: #FFCCCB ;
+    text-align: center;
+    letter-spacing: 10px;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > h2{
+        font-size: 3rem;
+    }
+}
+
+.main-container__list{
+    width: 100%;
+    max-height: calc(100vh - 400px);
+    overflow-y: auto;
+    margin: 60px 0 0 0;
+    background-color: #F9FFEA;
+}
+
+.main-container__list::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .main-container__list::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+.main-container__list::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 20px;
+  }

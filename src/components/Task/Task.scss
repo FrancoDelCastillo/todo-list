@@ -1,0 +1,58 @@
+.task-container{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    color: #868686;
+    border-top: 1px solid #dadada;
+    div{
+        svg{
+            width: 28px;
+            fill: #A6D0E4;
+            height: 100%;
+        }
+
+        &:nth-child(1){
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid #dadada;
+            svg{
+                &:hover{
+                    cursor: pointer;
+                    fill: green;
+                }
+                &.completed{
+                    fill: green;
+                }
+            }
+        }
+
+        &:nth-child(2){
+            
+            padding-left: 16px;
+            padding-right: 20px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        &:nth-child(3){
+            display: flex;
+            align-items: center;
+            align-content: center;
+            width: 60px;
+            
+            svg{
+                &:hover{
+                    cursor: pointer;
+                    fill:red
+                }
+            }
+        }
+    }
+}
